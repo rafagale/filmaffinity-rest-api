@@ -31,9 +31,20 @@ Use the following command to run it or use any process manager like forever or p
 $ node filmaffinity-api.js
 ```
 
-Query by title: http://localhost:5000/api/title/el+padrino
+|Method name|API endpoint|HTTP method|Input|Output|
+|-----------|------------|-----------|-----|------|
+|Get film by title|title/:title|GET|film title|see below|
+|Get film by id |id/:id|GET|film id|see below|
 
-```swift
+
+### Query by title
+```
+Query by title: http://localhost:5000/api/title/el+padrino
+```
+
+OUTPUT
+
+```json
 {
    "id":"809297",
    "url":"https://www.filmaffinity.com/es/film809297.html",
@@ -110,10 +121,15 @@ Query by title: http://localhost:5000/api/title/el+padrino
 
 ```
 
-
+### Query by id
+```
 Query by id: http://localhost:5000/api/id/999543
+```
 
-```swift
+
+OUTPUT
+
+```json
 {
    "id":"999543",
    "url":"http://www.filmaffinity.com/es/film999543.html",
