@@ -40,7 +40,7 @@ $ node filmaffinity-api.js
 
 ### Query by title
 ```
-Query by title: http://localhost:5000/api/title/el+padrino
+http://localhost:5000/api/title/el+padrino
 ```
 
 OUTPUT
@@ -124,7 +124,7 @@ OUTPUT
 
 ### Query by id
 ```
-Query by id: http://localhost:5000/api/id/999543
+http://localhost:5000/api/id/999543
 ```
 
 
