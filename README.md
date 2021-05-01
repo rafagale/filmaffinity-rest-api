@@ -34,8 +34,8 @@ $ node filmaffinity-api.js
 
 |Method name|API endpoint|HTTP method|Input|Output|
 |-----------|------------|-----------|-----|------|
-|Get film by title|title/{title}|GET|film title|see below|
-|Get film by id |id/{id}|GET|film id|see below|
+|Get film by title|/api/title/{title}|GET|film title|see below|
+|Get film by id |/api/id/{id}|GET|film id|see below|
 
 
 ### Query by title
