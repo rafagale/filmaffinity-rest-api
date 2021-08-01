@@ -24,8 +24,6 @@ Navigate to the new `filmaffinity-rest-api` folder and install the node dependen
 $ npm install
 ```
 
-For it to work as it should you have to manually replace `requestfa.js` inside your `node_modules/faparser/` folder with [this version](https://raw.githubusercontent.com/rafagale/filmaffinity-rest-api/master/node_modules/faparser/requestfa.js), sorry about that.
-
 ## Usage
 Use the following command to run it or use any process manager like forever or pm2
 ```
