@@ -1,0 +1,35 @@
+{
+  "name": "filmaffinity-rest-api",
+  "version": "0.0.1",
+  "description": "Parser for Filmaffinity site",
+  "main": "filmaffinity-rest-api.js",
+  "scripts": {
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafagale/filmaffinity-rest-api.git"
+  },
+  "keywords": [
+    "filmaffinity",
+    "cinema",
+    "scrapper",
+    "spider",
+    "node",
+    "nodejs",
+    "javascript",
+    "npm",
+    "crawler",
+    "series",
+    "film"
+  ],
+  "author": "Rafa Gale",
+  "bugs": {
+    "url": "https://github.com/rafagale/filmaffinity-rest-api/issues"
+  },
+  "homepage": "https://github.com/rafagale/filmaffinity-rest-api#readme",
+  "dependencies": {
+    "faparser": "1.0.9",
+    "express": "4.17.1"
+  }
+}
